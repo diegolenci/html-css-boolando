@@ -1,5 +1,5 @@
 header{
-    padding: 5px;
+    padding: 1px;
     background-color: chocolate;
     display: flex;
     justify-content: space-between;
@@ -37,10 +37,17 @@ section{
     width: 20px;
 
 }
-
+.card__icon svg:hover{
+    fill: red;
+}
 main nav{
     display: flex;
     justify-content: space-around;
+}
+
+.red{
+    color: red;
+    
 }
 
 
