@@ -1,0 +1,43 @@
+header{
+    padding: 5px;
+    background-color: chocolate;
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    color: white;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.card{
+    position: relative;
+}
+
+.card__icon{
+    position: absolute;
+    right: 40px;
+    top: 30px;
+    border-style: hidden;
+    display: flex;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+}
+
+.card__icon svg{
+    width: 20px;
+
+}
+
+
+
+
